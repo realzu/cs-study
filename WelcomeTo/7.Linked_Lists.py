@@ -25,7 +25,7 @@ def getAt(self, pos): #pos번째에 있는 노드 자체를 리턴
     i = 1
     curr = self.head    #curr= current
     while i < pos:  #i가 pos보다 작을 동안 반복함
-        curr = curr.next #다음 노드로 연결
+        curr = curr.next #다음 노드로 연결!
         i += 1    
     return curr
 
